@@ -4,15 +4,14 @@ This project focuses on cleaning raw and messy data using SQL queries in *MySQL*
 
 ## 📂 Project Overview
 
-* *Dataset*: [Nashville Housing Dataset](https://github.com/Riya1234-ux/Data_CLeaning_Project/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.csv)
+* *Dataset*: "C:\Users\user\Dropbox\PC\Downloads\layoffs (1).csv"
 * *Tools Used*: MySQL, SQL Queries, Joins, String Functions, Data Type Conversion, CTEs, Temp Tables
 * *Key Tasks*:
 
-  * Standardizing date formats
-  * Populating missing data
-  * Removing duplicates
-  * Breaking down data into atomic units
-  * Formatting and refining values
+ 1. Remove duplicates
+ 2. Standardized the data
+ 3. Null values or blank values
+ 4. Remove any columns
 
 ## 📌 Objectives
 
@@ -28,47 +27,24 @@ This project focuses on cleaning raw and messy data using SQL queries in *MySQL*
 
 ## 📊 Dataset Description
 
-The dataset contains property sales data from Nashville, Tennessee, including columns such as:
+The dataset contains company's info , including columns such as:
 
-* Parcel ID
-* Property Address
-* Sale Date
-* Sale Price
-* Owner Name
-* Legal Reference
-* Sold As Vacant
-* Year Built
-* Property Land Use
-* etc.
-
-## 🔧 Data Cleaning Steps
-
-1. *Standardizing Date Format*
-   Convert SaleDate to DATE type for consistency.
-
-2. *Populating Missing Property Address*
-   Fill missing property addresses using data with the same ParcelID.
-
-3. *Breaking Address into Components*
-   Split PropertyAddress into Address, City.
-
-4. *Breaking Owner Address*
-   Use SUBSTRING_INDEX() to split into OwnerAddress, City, and State.
-
-5. *Converting 'Y'/'N' to 'Yes'/'No'*
-   Clean up the SoldAsVacant column for readability.
-
-6. *Removing Duplicates*
-   Identify and remove duplicate rows based on key columns.
-
-7. *Dropping Unused Columns*
-   Remove unnecessary columns to simplify the dataset.
+* Company
+* Location
+* Industry
+* Total_laid_off
+* Percentage_laid_off
+* Date
+* Stage
+* Country
+* Funds_raised_millions
+   
 
 ## 📁 File Structure
 
 
 📦Data_Cleaning_Project
- ┣ 📄 Nashville Housing Data for Data Cleaning.csv
+ ┣ 📄 Layoffs Data for Data Cleaning.csv
  ┣ 📄 data_cleaning_queries.sql
  ┣ 📄 README.md
 
