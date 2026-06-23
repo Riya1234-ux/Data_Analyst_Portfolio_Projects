@@ -1,75 +1,56 @@
-# 🧹 Data Cleaning Project using MySQL
+# Data Analyst Portfolio Projects
 
-This project focuses on cleaning raw and messy data using SQL queries in *MySQL*. The goal is to transform unstructured and inconsistent data into a clean and structured format that is ready for analysis or further processing.
+This repository contains my Data Analytics projects created using SQL, Python, Excel, and Power BI.
 
-## 📂 Project Overview
+The projects in this repository focus on data cleaning, analysis, visualization, and dashboard creation to gain insights from real-world datasets.
 
-* *Dataset*: "C:\Users\user\Dropbox\PC\Downloads\layoffs (1).csv"
-* *Tools Used*: MySQL, SQL Queries, Joins, String Functions, Data Type Conversion, CTEs, Temp Tables
-* *Key Tasks*:
+## Skills Demonstrated
 
- 1. Remove duplicates
- 2. Standardized the data
- 3. Null values or blank values
- 4. Remove any columns
+* SQL Queries and Database Management
+* Data Cleaning and Transformation
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Dashboard Development
+* Business Insights and Reporting
 
-## 📌 Objectives
+## Tools Used
 
-* Learn practical data cleaning techniques using SQL.
-* Improve the quality and consistency of data.
-* Prepare data for visualization or machine learning workflows.
+* SQL
+* Python
+* Excel
+* Power BI
+* Pandas
+* Matplotlib
 
-## 🧰 Technologies Used
+## Project Categories
 
-* *MySQL*: For writing and executing SQL queries.
-* *DBMS Tools*: MySQL Workbench or any SQL editor.
-* *CSV Data*: Imported and used for SQL operations.
+### SQL Projects
 
-## 📊 Dataset Description
+* Data extraction and analysis using SQL queries
+* Joins, subqueries, aggregations, and window functions
 
-The dataset contains company's info , including columns such as:
+### Python Projects
 
-* Company
-* Location
-* Industry
-* Total_laid_off
-* Percentage_laid_off
-* Date
-* Stage
-* Country
-* Funds_raised_millions
-   
+* Data cleaning and preprocessing
+* Exploratory Data Analysis
+* Data visualization
 
-## 📁 File Structure
+### Excel Projects
 
+* Pivot Tables
+* Dashboards
+* Data analysis and reporting
 
-📦Data_Cleaning_Project
- ┣ 📄 Layoffs Data for Data Cleaning.csv
- ┣ 📄 data_cleaning_queries.sql
- ┣ 📄 README.md
+### Power BI Projects
 
+* Interactive dashboards
+* Business intelligence reports
+* Data storytelling
 
-## 🚀 How to Use
+## About
 
-1. Clone the repository:
+This repository showcases my learning journey in Data Analytics through practical projects and case studies. New projects will be added regularly as I continue to develop my analytical and visualization skills.
 
-   bash
-   git clone https://github.com/Riya1234-ux/Data_CLeaning_Project.git
-   
+---
 
-2. Import the CSV into MySQL.
-
-3. Run the SQL queries in data_cleaning_queries.sql sequentially.
-
-4. Verify the cleaned dataset using SELECT queries.
-
-## 📝 Learnings
-
-* Real-world data is messy and inconsistent.
-* SQL is powerful for handling and transforming structured data.
-* Data cleaning is an essential step before any meaningful analysis.
-
-## 📌 Author
-
-* 👩‍💻 Riya Paul
-* 🔗 [GitHub Profile](https://github.com/Riya1234-ux)
+*Turning data into insights.*
